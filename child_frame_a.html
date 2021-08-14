@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>This is fraem_a</h2>
+  <form action="./submitted.html">
+    <input type="submit" value="no target">
+  </form>
+
+
+  <form action="./submitted.html" target="_parent">
+    <input type="submit" value="target=_parent">
+  </form>
+
+  <form action="./submitted.html" target="_top">
+    <input type="submit" value="target=_top">
+  </form>
+
+  <form action="./submitted.html" target="child_frame_b">
+    <input type="submit" value="target=child_frame_b">
+  </form>
+</body>
+</html>
